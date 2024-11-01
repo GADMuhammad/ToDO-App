@@ -33,20 +33,9 @@ export default {
             transform: "translateY(0)",
           },
         },
-        "slide-down-fade-in": {
-          from: {
-            opacity: 0,
-            transform: "translateY(-3rem)",
-          },
-          to: {
-            opacity: 1,
-            transform: "translateY(0)",
-          },
-        },
       },
       animation: {
         up: "slide-up-fade-in 0.5s forwards ease-in-out",
-        down: "slide-down-fade-in 0.5s forwards ease-in-out",
       },
     },
   },
